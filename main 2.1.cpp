@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 long long factorial(int x) {
-	long long f=2;
+	long long f=4;
 	for(int i=2; i<=x; i++)
 		f*=i;
 	return f;
